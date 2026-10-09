@@ -32,8 +32,9 @@ OctoWoW). Get your group out there and know at a glance who holds what and which
 
 ![EPL Towers in game](docs/window.jpg)
 
-*In game: the player is standing at Northpass, so that tower is **LIVE**. The others show their last
-reading and how old it is.*
+*In game (English), with the Options panel open next to the main window. The gold dot on the map is
+the player at Northpass. The tower cards show each tower's last reading and how old it is, and the
+Options panel explains every setting in one line.*
 
 Only players who have the addon can share data, so give it to your group.
 
@@ -147,9 +148,8 @@ To stop chat filling up when several people have the addon:
 
 ## Options
 
-![Options in English and Russian](docs/options.png)
-
-*Preview of the Options panel in both languages.*
+*The Options panel is the right-hand half of the screenshots at the top (English) and under
+[Languages](#languages--языки) (Russian).*
 
 Every option has its description underneath. **Window size** scales the main window from 60% to 150%.
 **Clear tower info** needs two clicks so it can't happen by accident.
@@ -161,28 +161,26 @@ Plaguelands, so you get the server's own capture messages. Turn it off if you do
 
 ## Languages / Языки
 
-![English and Russian](docs/languages.png)
+![EPL Towers in Russian](docs/window-ru.jpg)
 
-*The same moment in English and Russian: the player is at Crown Guard, Northpass and Eastwall are
-LIVE from two other players.*
-
-<img src="docs/window-ru.png" alt="EPL Towers in Russian" width="420" align="right">
+*The same moment in Russian: the whole addon, Options included, switches with one click on the flags.*
 
 **The Russian window, part by part:**
 
-- **Башни ВЧЗ** (title) = *EPL Towers*. **English / Русский** flags switch the language; the gold
-  frame shows the active one.
-- **Green line** = *"You are at Crown Guard, sharing its bar live"*.
-- **Tower names:** Чумной лес = Plaguewood, Северный перевал = Northpass, Восточная стена = Eastwall,
-  Королевская стража = Crown Guard.
-- **Owners:** Альянс = Alliance, Орда = Horde, Нейтральная = Neutral.
-- **ВЖИВУЮ** = LIVE (the name after it is who is sending the bar). **данные 4 мин назад** = seen 4 min ago.
-- **Timers:** «Орда через 5:12» = *Horde in 5:12*, «затем … 24 с/дел.» = *then … 24 s per point*.
-  On the map, **О** = Horde, **Н** = Neutral, **А** = Alliance, **удерж.** = secure.
-- **Buttons:** Скрыть карту = Hide map, Обновить = Sync now, Объявить = Announce, Настройки = Options,
-  Справка = Help.
-
-<br clear="right">
+| Russian | English |
+|---|---|
+| **Башни ВЧЗ** / **Настройки** (titles) | EPL Towers / Options |
+| Ждём других игроков с аддоном… | Waiting for other players with this addon… |
+| Чумной лес · Северный перевал · Восточная стена · Королевская стража | Plaguewood · Northpass · Eastwall · Crown Guard |
+| Альянс · Орда · Нейтральная · Неизвестно | Alliance · Horde · Neutral · Unknown |
+| данные 2 ч назад · данные 8 мин назад | seen 2h ago · seen 8m ago |
+| Полоса 37 (последние данные) | Bar 37 when last seen |
+| Сейчас там нет никого с аддоном | Nobody with the addon is there now |
+| Пока нет данных | No info yet |
+| **ВЖИВУЮ** | LIVE (someone with the addon is at the tower) |
+| Орда через 5:12 · затем … 24 с/дел. | Horde in 5:12 · then … 24 s per point |
+| Скрыть карту · Обновить · Объявить · Настройки · Справка | Hide map · Sync now · Announce · Options · Help |
+| Сбросить позиции · Очистить данные · Двигать оповещения | Reset positions · Clear tower info · Move alerts |
 
 - Click the flags at the top (or type `/eplt en`, `/eplt ru`). Players on a Russian game client get Russian automatically.
 - The game's normal font has **no Cyrillic letters**, so the addon brings its own font
