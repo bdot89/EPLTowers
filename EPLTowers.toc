@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: EPL Towers
+## Notes: Live Eastern Plaguelands tower tracker in English and Russian. Shares capture bar progress with your raid/party/guild automatically. /eplt
+## Version: 2.2
+## SavedVariables: EPLTowersDB
+EPLTowers.lua
+Locale.lua
+EPLTowersUI.lua
