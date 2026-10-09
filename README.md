@@ -1,17 +1,41 @@
+<div align="center">
+
+<img src="docs/banner.png" alt="EPL Towers: win the tower war in the Eastern Plaguelands" width="100%">
+
 # EPL Towers
 
-A live tracker for the four **Eastern Plaguelands world PvP towers** for the vanilla 1.12 client
-(made for OctoWoW). It shows who owns each tower, a copy of the real capture bar and how long until
-each tower flips. It shares all of that with your party, raid and guild automatically.
-**English and Russian** (switch with one click).
+**Win the tower war in the Eastern Plaguelands** · WoW 1.12 · OctoWoW · English &amp; Русский
+
+![WoW 1.12.1](https://img.shields.io/badge/WoW-1.12.1-c79c6e?style=flat-square)
+![Lua 5.0](https://img.shields.io/badge/Lua-5.0-2c2d72?style=flat-square)
+![No SuperWoW](https://img.shields.io/badge/SuperWoW-not%20needed-2e8b57?style=flat-square)
+![Languages](https://img.shields.io/badge/lang-EN%20%7C%20RU-b8923a?style=flat-square)
+
+</div>
+
+Plaguewood, Northpass, Eastwall and Crown Guard: four towers, two factions, one zone. EPL Towers is a
+live tracker for the **Eastern Plaguelands world PvP towers** on the vanilla 1.12 client (made for
+OctoWoW). Get your group out there and know at a glance who holds what and which tower is falling.
+
+**What it does**
+
+- 🏰 **Live owner of all four towers**, with Alliance / Horde / neutral counts at the top.
+- 📊 **An exact copy of the game's capture bar** for every tower, on the map and on each tower card.
+- ⏱️ **Flip timers measured from the real bar speed**, so 1 capper or 10 cappers both give the right time.
+- ⚔️ **Capture and under-attack alerts** in a banner you can move anywhere.
+- 🔄 **Automatic sync** with your party, raid and guild: one player at a tower feeds everyone.
+- 🗺️ **Tower map** with you and your party/raid members in class colours.
+- 📣 **Announcements that can't be spammed**, even with ten people running the addon at one tower.
+- 🛡️ **Keeps you in LocalDefense** while you're in the zone (can be turned off).
+- 🇬🇧 🇷🇺 **English and Russian** with one click, with its own font so Cyrillic shows properly.
+- 📦 **One drag-and-drop folder.** No other addons, DLLs or SuperWoW needed: only the normal 1.12 game API.
 
 ![EPL Towers in game](docs/window.jpg)
 
 *In game: the player is standing at Northpass, so that tower is **LIVE**. The others show their last
 reading and how old it is.*
 
-- No other addons, DLLs or SuperWoW needed. Everything uses the normal 1.12 game API.
-- Only players who have the addon can share data, so give it to your group.
+Only players who have the addon can share data, so give it to your group.
 
 ---
 
@@ -139,7 +163,26 @@ Plaguelands, so you get the server's own capture messages. Turn it off if you do
 
 ![English and Russian](docs/languages.png)
 
-*Preview of the main window in English and Russian.*
+*The same moment in English and Russian: the player is at Crown Guard, Northpass and Eastwall are
+LIVE from two other players.*
+
+<img src="docs/window-ru.png" alt="EPL Towers in Russian" width="420" align="right">
+
+**The Russian window, part by part:**
+
+- **Башни ВЧЗ** (title) = *EPL Towers*. **English / Русский** flags switch the language; the gold
+  frame shows the active one.
+- **Green line** = *"You are at Crown Guard, sharing its bar live"*.
+- **Tower names:** Чумной лес = Plaguewood, Северный перевал = Northpass, Восточная стена = Eastwall,
+  Королевская стража = Crown Guard.
+- **Owners:** Альянс = Alliance, Орда = Horde, Нейтральная = Neutral.
+- **ВЖИВУЮ** = LIVE (the name after it is who is sending the bar). **данные 4 мин назад** = seen 4 min ago.
+- **Timers:** «Орда через 5:12» = *Horde in 5:12*, «затем … 24 с/дел.» = *then … 24 s per point*.
+  On the map, **О** = Horde, **Н** = Neutral, **А** = Alliance, **удерж.** = secure.
+- **Buttons:** Скрыть карту = Hide map, Обновить = Sync now, Объявить = Announce, Настройки = Options,
+  Справка = Help.
+
+<br clear="right">
 
 - Click the flags at the top (or type `/eplt en`, `/eplt ru`). Players on a Russian game client get Russian automatically.
 - The game's normal font has **no Cyrillic letters**, so the addon brings its own font
